@@ -1,11 +1,16 @@
 {
-  "name": "strtok3",
-  "version": "7.0.0",
+  "name": "@freik/strtok3",
+  "version": "0.1.0",
   "description": "A promise based streaming tokenizer",
   "author": {
     "name": "Borewit",
     "url": "https://github.com/Borewit"
   },
+  "contributors": [ {
+    "name": "Kevin Frei",
+    "url": "https://github.com/kevinfrei",
+    "email": "kevinfrei@hotmail.com"
+  } ],
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/Borewit"
@@ -28,10 +33,7 @@
   "engines": {
     "node": ">=14.16"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Borewit/strtok3.git"
-  },
+  "repository": "github:kevinfrei/strtok3.git",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -47,7 +49,7 @@
     "lib/**/*.d.ts"
   ],
   "bugs": {
-    "url": "https://github.com/Borewit/strtok3/issues"
+    "url": "https://github.com/kevinfrei/strtok3/issues"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
