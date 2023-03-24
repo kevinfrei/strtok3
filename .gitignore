@@ -9,3 +9,12 @@ test/**/*.d.ts
 test/resources/tmp.dat
 coverage
 .idea
+
+# Not doing 0-install for this repo, at least for now...
+.yarn/*
+.pnp.*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
